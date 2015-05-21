@@ -1,0 +1,36 @@
+body {
+  background-color: #afa0a0;
+}
+.content {
+  padding: 10;
+}
+#name {
+  text-align: left;
+  font-family: 'Quicksand';
+  font-size: 22;
+  font-weight: 400;
+}
+#WIP {
+  text-align: left;
+  font-family: 'Quicksand';
+  font-size: 12;
+  font-weight: 300;
+}
+#topbar {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #fff;
+  padding: 0px 0px 0px 0px;
+  box-shadow: 0 8px 10px -6px #000;
+}
+#contact {
+  position: absolute;
+  right: 10;
+  top: 10;
+  font-family: 'quicksand';
+  font-size: 8;
+  font-weight: 700;
+}
