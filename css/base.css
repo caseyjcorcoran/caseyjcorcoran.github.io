@@ -1,8 +1,28 @@
 body {
-  background-color: #afa0a0;
+  background-color: #cfd8dc;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #ba68c8;
+}
+a:visited {
+  color: #4a148c;
+}
+a:hover {
+  text-decoration: underline;
+  color: #4dd0e1;
 }
 .content {
   padding: 10;
+}
+#logo {
+  float: center;
+  margin: 5px;
+  padding: 15px;
+  height: 300px;
+  width: 300px;
 }
 #name {
   text-align: left;
@@ -17,8 +37,9 @@ body {
   font-weight: 300;
 }
 #topbar {
+  z-index: 100;
   width: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;
@@ -31,6 +52,25 @@ body {
   right: 10;
   top: 10;
   font-family: 'quicksand';
-  font-size: 8;
-  font-weight: 700;
+  font-size: 12;
+  font-weight: 400;
+}
+#dircontent {
+  display: block;
+  z-index: 0;
+  position: absolute;
+  top: 70;
+}
+.post {
+  padding: 2;
+  float: left;
+  margin-right: 5;
+  margin-bottom: 5;
+  line-height: 9;
+  border: o;
+  background-color: #fff;
+}
+img {
+  width: 100%;
+  height: auto;
 }
