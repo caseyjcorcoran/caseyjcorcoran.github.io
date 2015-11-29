@@ -27,12 +27,14 @@ a:hover {
   font-family: 'Quicksand';
   font-size: 22;
   font-weight: 400;
+  color: #fff;
 }
 #WIP {
   text-align: left;
   font-family: 'Quicksand';
   font-size: 12;
   font-weight: 300;
+  color: #fff;
 }
 #topbar {
   z-index: 100;
@@ -41,7 +43,7 @@ a:hover {
   left: 0;
   right: 0;
   top: 0;
-  background: #fff;
+  background: #383232;
   padding: 0px 0px 0px 0px;
   box-shadow: 0 1px 2px 0px #000;
 }
@@ -54,15 +56,14 @@ a:hover {
   font-weight: 400;
 }
 #dircontent {
-  display: block;
-  z-index: 0;
-  position: absolute;
-  top: 70;
+  top: 100;
 }
 .post {
+  display: inline-block;
   padding: 2;
-  float: left;
-  margin-right: 5;
+  width: 48.75%;
+  margin-left: 0.5%;
+  margin-right: 0.25%;
   margin-bottom: 5;
   line-height: 9;
   border: o;
