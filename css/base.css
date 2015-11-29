@@ -1,5 +1,5 @@
 body {
-  background-color: #cfd8dc;
+  background-color: #383232;
 }
 a {
   text-decoration: none;
@@ -21,8 +21,6 @@ a:hover {
   float: center;
   margin: 5px;
   padding: 15px;
-  height: 300px;
-  width: 300px;
 }
 #name {
   text-align: left;
