@@ -1,35 +1,34 @@
 body {
-  background-color: #383232;
-}
-a {
-  text-decoration: none;
-}
-a:link {
-  color: #ba68c8;
-}
-a:visited {
-  color: #4a148c;
-}
-a:hover {
-  text-decoration: underline;
-  color: #4dd0e1;
+  background-color: #fafafa;
 }
 .content {
-  padding: 10;
+  position: fixed;
+  left: 1%;
+  top: 1%;
+  list-style: none;
 }
 #logo {
   float: center;
   margin: 5px;
   padding: 15px;
 }
-#name {
+#logobar {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  -webkit-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  height: 100%;
+}
+.name {
   text-align: left;
   font-family: 'Quicksand';
   font-size: 22;
   font-weight: 400;
   color: #fff;
 }
-#WIP {
+.WIP {
   text-align: left;
   font-family: 'Quicksand';
   font-size: 12;
@@ -37,39 +36,44 @@ a:hover {
   color: #fff;
 }
 #topbar {
-  z-index: 100;
-  width: 100%;
+  z-index: 50;
   position: fixed;
+  height: 10%;
+  width: 100%;
   left: 0;
   right: 0;
   top: 0;
-  background: #383232;
+  background-color: rgba(33,33,33,0.6);
   padding: 0px 0px 0px 0px;
   box-shadow: 0 1px 2px 0px #000;
 }
-#contact {
-  position: absolute;
-  right: 10;
-  top: 10;
+a:visited,
+a:hover,
+a:active,
+a {
+  text-decoration: none;
+  color: #bbdefb;
+  opacity: 1;
+}
+.contact {
+  position: fixed;
+  right: 5%;
+  top: 4.5%;
   font-family: 'quicksand';
   font-size: 12;
   font-weight: 400;
 }
+#content,
 #dircontent {
-  top: 100;
+  display: block;
+  position: relative;
+  top: 10%;
 }
 .post {
-  display: inline-block;
-  padding: 2;
-  width: 48.75%;
-  margin-left: 0.5%;
-  margin-right: 0.25%;
-  margin-bottom: 5;
-  line-height: 9;
-  border: o;
-  background-color: #fff;
+  float: left;
+  width: 50%;
 }
-img {
+#thumb {
   width: 100%;
   height: auto;
 }
